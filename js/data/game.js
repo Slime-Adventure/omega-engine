@@ -81,8 +81,8 @@ var game = {
     restackLayer: new ReStackLayer(),
     metaLayer: new MetaLayer(),
     achievements: [
-        new Achievement("Starting Out", "Reach 10 α", "α", () => game.layers[0] && game.layers[0].resource.gt(10)),
-        new Achievement("The beginning of Idling", "Have 1 <span>α<sub>1</sub></span> Generator", "<span>α<sub>1</sub></span>", () => game.layers[0] && game.layers[0].generators[0].bought.gt(0)),
+        new Achievement("A small murder", "Reach 10 stabs", "Stabs", () => game.layers[0] && game.layers[0].resource.gt(10)),
+        new Achievement("Craft it!", "Have 1 <span>Stabs<sub>1</sub></span> Generator", "<span>Stabs<sub>1</sub></span>", () => game.layers[0] && game.layers[0].generators[0].bought.gt(0)),
         new Achievement("Polynomial Growth", "Have 1 <span>α<sub>2</sub></span> Generator", "<span>α<sub>2</sub></span>", () => game.layers[0] && game.layers[0].generators[1].bought.gt(0)),
         new Achievement("Still Polynomial Growth", "Have 1 <span>α<sub>3</sub></span> Generator", "<span>α<sub>3</sub></span>", () => game.layers[0] && game.layers[0].generators[2].bought.gt(0)),
         new Achievement("A Square of Generators", "Have 1 <span>α<sub>4</sub></span> Generator", "<span>α<sub>4</sub></span>", () => game.layers[0] && game.layers[0].generators[3].bought.gt(0)),
